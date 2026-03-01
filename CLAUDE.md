@@ -14,6 +14,9 @@ pnpm format           # Format src/ with oxfmt
 pnpm type-check       # Type-check with vue-tsc
 ```
 
+## Commit
+- Follow conventional commits guidelines
+
 ## Architecture
 
 - **Vue 3 + TypeScript + Vite** — SFC `<script setup lang="ts">` style
@@ -67,3 +70,10 @@ test('counter button increments the count', async () => {
   await expect.element(screen.getByText('Count is 2')).toBeVisible()
 })
 ```
+
+## Template
+- Use native HTML elements with semantic meaning instead of generic div when possible
+
+## Styling
+- Use CSS selector to access element instead of adding classes (ex: .header) when possible.
+- Spacing logic should be applied on container (ex: with padding, gap) instead of be applied on standalone elements.

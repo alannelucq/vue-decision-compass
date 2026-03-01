@@ -1,0 +1,20 @@
+/* ─── Button Styles ──────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-sm) var(--space-lg);
+  border: none;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--color-primary-fg);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-hover);
+}
