@@ -9,10 +9,10 @@ import { BookOpen, Plus } from 'lucide-vue-next'
     </figure>
     <h2>No decisions yet</h2>
     <p>Start your first reflection to think deeper before deciding.</p>
-    <button class="btn-primary">
+    <RouterLink to="/new" class="btn-primary">
       <Plus :size="18" />
       Start Your First Decision
-    </button>
+    </RouterLink>
   </section>
 </template>
 

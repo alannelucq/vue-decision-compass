@@ -28,10 +28,10 @@ const activeFilter = ref<(typeof filters)[number]>('All')
           </button>
         </li>
       </menu>
-      <button class="btn-primary">
+      <RouterLink to="/new" class="btn-primary">
         <Plus :size="18" />
         New Decision
-      </button>
+      </RouterLink>
     </nav>
 
     <EmptyState />
