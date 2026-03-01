@@ -16,6 +16,7 @@
     "format": "oxfmt src/"
   },
   "dependencies": {
+    "lucide-vue-next": "^0.575.0",
     "vue": "^3.5.29",
     "vue-router": "^5.0.3"
   },
@@ -24,6 +25,7 @@
     "@types/jsdom": "^28.0.0",
     "@types/node": "^24.11.0",
     "@vitejs/plugin-vue": "^6.0.4",
+    "@vitest/browser-playwright": "^4.0.18",
     "@vitest/eslint-plugin": "^1.6.9",
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vue/test-utils": "^2.4.6",
@@ -41,6 +43,7 @@
     "vite": "beta",
     "vite-plugin-vue-devtools": "^8.0.6",
     "vitest": "^4.0.18",
+    "vitest-browser-vue": "^2.0.2",
     "vue-tsc": "^3.2.5"
   },
   "engines": {

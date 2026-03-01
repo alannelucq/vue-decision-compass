@@ -1,11 +1,10 @@
-import { describe, it, expect } from 'vitest'
-
-import { mount } from '@vue/test-utils'
+import { expect, test } from 'vitest'
+import { render } from 'vitest-browser-vue'
 import App from '../App.vue'
 
-describe('App', () => {
-  it('mounts renders properly', () => {
-    const wrapper = mount(App)
-    expect(wrapper.text()).toContain('You did it!')
-  })
+test('renders heading and tagline', async () => {
+  const screen = render(App)
+
+  await expect.element(screen.getByRole('heading', { name: /decision compass/i })).toBeVisible()
+  await expect.element(screen.getByText('Think deeply before you act. Review your choices with clarity.')).toBeVisible()
 })

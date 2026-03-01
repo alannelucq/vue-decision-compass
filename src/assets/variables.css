@@ -1,0 +1,61 @@
+/* ─── Design Tokens ─────────────────────────────────────────── */
+:root {
+  /* Colors — base palette */
+  --color-bg: #f0ede8; /* warm off-white page background */
+  --color-surface: #ffffff; /* cards, modals, elevated surfaces */
+  --color-surface-alt: #e8e4de; /* subtle inset / secondary surface */
+
+  --color-primary: #3d5a4f; /* forest green — CTAs, active tabs */
+  --color-primary-hover: #2f4740; /* darkened primary for hover states */
+  --color-primary-fg: #ffffff; /* text/icons on primary backgrounds */
+
+  --color-accent-muted: #d8e8e2; /* light sage — icon backgrounds, chips */
+
+  --color-text: #1c1c1a; /* headings, body copy */
+  --color-text-muted: #7a7874; /* secondary labels, placeholders */
+  --color-text-disabled: #b0ada8; /* disabled controls */
+
+  --color-border: #dedad4; /* subtle dividers and outlines */
+  --color-border-focus: #3d5a4f; /* focus ring — matches primary */
+
+  --color-danger: #b34c4c;
+  --color-success: #3d5a4f; /* reuses primary green */
+  --color-warning: #b37c2e;
+
+  /* Typography */
+  --font-serif: 'Instrument Serif', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+  --text-xl: 1.375rem; /* 22px */
+  --text-2xl: 1.75rem; /* 28px */
+  --text-3xl: 2.5rem; /* 40px */
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-bold: 700;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-loose: 1.75;
+
+  /* Spacing — 4px base grid */
+  --space-2xs: 0.25rem; /*  4px */
+  --space-xs: 0.5rem; /*  8px */
+  --space-sm: 0.75rem; /* 12px */
+  --space-md: 1rem; /* 16px */
+  --space-lg: 1.5rem; /* 24px */
+  --space-xl: 2rem; /* 32px */
+  --space-2xl: 3rem; /* 48px */
+  --space-3xl: 4rem; /* 64px */
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px; /* pill buttons, avatars */
+}

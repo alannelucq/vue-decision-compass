@@ -1,11 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { Compass } from 'lucide-vue-next'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <header>
+    <h1>
+      <Compass />
+      Decision compass
+    </h1>
+    <p>Think deeply before you act. Review your choices with clarity.</p>
+  </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+header p {
+  font-size: var(--text-lg);
+}
+</style>
